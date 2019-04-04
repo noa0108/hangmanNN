@@ -1,14 +1,30 @@
 body 
 {
     text-align: center;
-    color: coral;
-    font-family: 'Courier New', Courier, monospace; 
-    background-color: aqua;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px; 
+    background-color: palevioletred;  
+    background-size: 200px 100px;
+
+}
+
+h1 
+{
+    font-size: 50px;
+    color: plum;
 }
 
 h2
 {
     font-size: 20px;
-    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;  
+    color: black;
     background-color: bisque;
+}
+
+h3
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
 }
