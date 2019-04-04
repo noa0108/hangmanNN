@@ -134,7 +134,7 @@ function roundComplete() {
     document.getElementById("wrong-guesses").innerHTML = wrongGuesses.join(" ");
 
     //If we have gotten all the letters to match the solution...
-    if (lettersInChosenWord.toString() === blankAndSuccesses.toString()) {
+    if (lettersInChosenWord.toString() === blanksAndSuccesses.toString()) {
 
         //...add to the win counter and give the user an alert 
         winCounter++;
@@ -155,14 +155,33 @@ function roundComplete() {
         alert("You loose");
 
         //Update the loss counter in the HTML
-        document.getElementById("loss-counter"),innerHTML = lossCounter;
+        document.getElementById("loss-counter").innerHTML = lossCounter;
 
         //Restart the game 
         startGame();
     }
-
-
 }
+
+
+//MAIN PROCESS (This is the code that controls what is actually run)
+//------------------------------------------------------------------
+
+//Starts the Game 
+startGame(); 
+
+//initiate the function for capturing key clicks
+document.onkeyup = function(event) {
+
+    //Coverts all key clicks to lowercase letters
+    var letterGuessed = String.fromChartCode(event.keyCode).toLowerCae();
+
+    //Runs the code to check for correctness
+    checkLetters(letterGuessed);
+
+    //Runs this code after each round is done 
+    roundComplete();
+
+} 
 
 
 

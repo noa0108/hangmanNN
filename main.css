@@ -1,0 +1,14 @@
+body 
+{
+    text-align: center;
+    color: coral;
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: aqua;
+}
+
+h2
+{
+    font-size: 20px;
+    color:black;
+    background-color: bisque;
+}
