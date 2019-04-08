@@ -1,10 +1,10 @@
 body 
 {
     text-align: center;
-    color: black;
+    color: darkcyan;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px; 
-    background-color: palevioletred;  
+    background-color: aquamarine;  
     background-size: 200px 100px;
 
 }
@@ -12,7 +12,7 @@ body
 h1 
 {
     font-size: 50px;
-    color: plum;
+    color: darkcyan;
 }
 
 h2
@@ -20,7 +20,7 @@ h2
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;  
     color: black;
-    background-color: bisque;
+    background-color: peachpuff;
 }
 
 h3
